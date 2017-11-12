@@ -1,0 +1,32 @@
+{
+  "name": "foxp2",
+  "version": "1.0.0",
+  "description": "🦊",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mango-chutney/foxp2.git"
+  },
+  "author": "Mango Chutney",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/mango-chutney/foxp2#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1"
+  }
+}
